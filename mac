@@ -10,3 +10,7 @@ echo $0  ## current bash
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)”
 
+
+
+git config --global user.name "vsmsyee"
+git config --global user.email vsmysee@gmail.com
