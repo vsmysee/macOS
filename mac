@@ -25,6 +25,9 @@ brew uninstall
 brew uninstall —cask
 
 
+brew install tree
+
+
 brew install --cask iterm2
 ⌘ D
 ⌘ [
@@ -77,3 +80,5 @@ for i in */.git; do ( echo $i; cd $i/..; git pull; ); done
 
 
 ifconfig | grep '192'
+
+kill $(ps -ef | grep redis | awk '{print $2}')
