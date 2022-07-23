@@ -2,6 +2,9 @@ vim ~/.zshrc
 vim ~/.bash_profile
 
 
+xcode-select –install
+
+
 netstat -AaLnW
 
 ssh-keygen -t rsa -b 2048 -C "vsmysee@gmail.com"
@@ -71,3 +74,6 @@ for i in */.git; do ( echo $i; cd $i/..; git pull; ); done
 
 !!	执行最后一次执行的命令
 !!:p	显示最后一次执行的命令
+
+
+ifconfig | grep '192'
