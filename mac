@@ -1,0 +1,12 @@
+netstat -AaLnW
+
+ssh-keygen -t rsa -b 2048 -C "vsmysee@gmail.com"
+
+echo $0  ## current bash
+
+
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)”
+
