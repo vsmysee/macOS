@@ -1,0 +1,3 @@
+brew install freetype
+bash configure --with-boot-jdk=/Users/baby/Downloads/amazon-corretto-11.jdk/Contents/Home
+bash configure --with-boot-jdk=/Users/baby/Downloads/amazon-corretto-8.jdk/Contents/Home --with-freetype-include=/usr/local/Cellar/freetype/2.12.1/include/freetype2 --with-freetype-lib=/usr/local/Cellar/freetype/2.12.1/lib

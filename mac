@@ -1,3 +1,7 @@
+vim ~/.zshrc
+vim ~/.bash_profile
+
+
 netstat -AaLnW
 
 ssh-keygen -t rsa -b 2048 -C "vsmysee@gmail.com"
@@ -7,10 +11,63 @@ echo $0  ## current bash
 
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)”
+brew list
+brew search
+
+brew install
+brew install —cask
+
+brew uninstall
+brew uninstall —cask
 
 
+brew install --cask iterm2
+⌘ D
+⌘ [
 
-git config --global user.name "vsmsyee"
+⌘ T
+⌘ ←/→
+
+
+git config --global user.name vsmsyee
 git config --global user.email vsmysee@gmail.com
+
+git config --list
+
+
+Cmd+Shift+4：区域截图
+
+
+/usr/libexec/java_home --verbose
+
+
+Ctrl + A	移动光标至行首，也适用于大多数文本编辑器
+Ctrl + E	移动光标至行尾，也适用于大多数文本编辑器
+Ctrl + L	清屏
+Ctrl + F	将将光标向前移动一个字符
+Ctrl + B	将将光标向后移动一个字符
+Option + →	光标向前移动一个单词
+Option + ←	光标向后移动一个单词
+
+Ctrl + N：移动到下一行
+Ctrl + P：移动到上一行
+Ctrl + H：向左删除一个字母，等价于 Delete
+
+
+
+Command + ` 切换同一个应用的不同窗口
+
+ctrl-r	检索之前执行过的命令
+
+find /Users -name "file.txt"
+
+
+uname -a 内核信息
+
+
+for i in */.git; do ( echo $i; cd $i/..; git pull; ); done
+
+
+!!	执行最后一次执行的命令
+!!:p	显示最后一次执行的命令
