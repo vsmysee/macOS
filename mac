@@ -2,19 +2,34 @@ vim ~/.zshrc
 vim ~/.bash_profile
 
 
+
+# Enable
+defaults write -g ApplePressAndHoldEnabled -bool false
+
+# Disable (Default)
+defaults write -g ApplePressAndHoldEnabled -bool true
+
+
+
+
 xcode-select –install
 
+caffeinate -t​​ 3600
+
+df -h
 
 netstat -AaLnW
 
 ssh-keygen -t rsa -b 2048 -C "vsmysee@gmail.com"
 
 echo $0  ## current bash
-
-
+cat /etc/shells
+chsh -s /bin/zsh
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)”
+
+
 brew list
 brew search
 
@@ -82,3 +97,8 @@ for i in */.git; do ( echo $i; cd $i/..; git pull; ); done
 ifconfig | grep '192'
 
 kill $(ps -ef | grep redis | awk '{print $2}')
+
+
+brew install youtube-dl
+
+screencapture -T 3 -t jpg -P delayedpic.jpg
