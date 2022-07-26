@@ -27,7 +27,7 @@ cat /etc/shells
 chsh -s /bin/zsh
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)”
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
 
 
 brew list
@@ -102,3 +102,6 @@ kill $(ps -ef | grep redis | awk '{print $2}')
 brew install youtube-dl
 
 screencapture -T 3 -t jpg -P delayedpic.jpg
+
+top -ocpu -s 5
+top -o rsize
