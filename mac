@@ -2,7 +2,6 @@ vim ~/.zshrc
 vim ~/.bash_profile
 
 
-
 # Enable
 defaults write -g ApplePressAndHoldEnabled -bool false
 
@@ -10,11 +9,9 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 defaults write -g ApplePressAndHoldEnabled -bool true
 
 
-
-
 xcode-select –install
 
-caffeinate -t​​ 3600
+caffeinate -t 3600
 
 df -h
 
