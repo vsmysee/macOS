@@ -1,0 +1,39 @@
+{
+  "to_if_alone": [
+    {
+      "key_code": "escape"
+    },
+    {
+      "key_code": "i",
+      "modifiers": [
+        "left_control"
+      ]
+    },
+    {
+      "key_code": "0",
+      "modifiers": [
+        "left_command"
+      ]
+    }
+  ],
+  "to_after_key_up": [
+    {
+      "set_variable": {
+        "name": "caps-lock-mode",
+        "value": 0
+      }
+    }
+  ],
+  "from": {
+    "key_code": "caps_lock"
+  },
+  "to": [
+    {
+      "set_variable": {
+        "name": "caps-lock-mode",
+        "value": 1
+      }
+    }
+  ],
+  "type": "basic"
+}

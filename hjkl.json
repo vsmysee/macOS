@@ -1,0 +1,74 @@
+[
+  {
+    "from": {
+      "key_code": "h"
+    },
+    "to": [
+      {
+        "key_code": "left_arrow"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "caps-lock-mode",
+        "value": 1,
+        "type": "variable_if"
+      }
+    ],
+    "type": "basic"
+  },
+  {
+    "from": {
+      "key_code": "j"
+    },
+    "to": [
+      {
+        "key_code": "down_arrow"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "caps-lock-mode",
+        "value": 1,
+        "type": "variable_if"
+      }
+    ],
+    "type": "basic"
+  },
+  {
+    "from": {
+      "key_code": "k"
+    },
+    "to": [
+      {
+        "key_code": "up_arrow"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "caps-lock-mode",
+        "value": 1,
+        "type": "variable_if"
+      }
+    ],
+    "type": "basic"
+  },
+  {
+    "from": {
+      "key_code": "l"
+    },
+    "to": [
+      {
+        "key_code": "right_arrow"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "caps-lock-mode",
+        "value": 1,
+        "type": "variable_if"
+      }
+    ],
+    "type": "basic"
+  }
+]
