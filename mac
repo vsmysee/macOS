@@ -102,3 +102,9 @@ screencapture -T 3 -t jpg -P delayedpic.jpg
 
 top -ocpu -s 5
 top -o rsize
+
+
+# python 2
+python -m SimpleHTTPServer 80
+# python 3
+python -m http.server 80
