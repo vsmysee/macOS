@@ -108,3 +108,8 @@ top -o rsize
 python -m SimpleHTTPServer 80
 # python 3
 python -m http.server 80
+
+
+pkgutil --pkgs| grep pritunl
+pkgutil --files com.pritunl.pkg.Pritunl
+sudo pkgutil --forget com.pritunl.pkg.Pritunl
