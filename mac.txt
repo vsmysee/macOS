@@ -113,3 +113,5 @@ python -m http.server 80
 pkgutil --pkgs| grep pritunl
 pkgutil --files com.pritunl.pkg.Pritunl
 sudo pkgutil --forget com.pritunl.pkg.Pritunl
+
+find . -name "*.epub" -type f -exec mv {} /Users/xiexielibai/Downloads/mybook \;
