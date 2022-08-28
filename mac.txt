@@ -115,3 +115,10 @@ pkgutil --files com.pritunl.pkg.Pritunl
 sudo pkgutil --forget com.pritunl.pkg.Pritunl
 
 find . -name "*.epub" -type f -exec mv {} /Users/xiexielibai/Downloads/mybook \;
+
+
+alias pset='networksetup -setwebproxy Wi-Fi 192.168.1.103 9999 && networksetup -setsecurewebproxy Wi-Fi 192.168.1.103 9999 && networksetup -setsocksfirewallproxy Wi-Fi 192.168.1.103 10000'
+alias psystem='networksetup -setwebproxystate Wi-Fi on && networksetup -setsecurewebproxystate Wi-Fi on && networksetup -setsocksfirewallproxystate Wi-Fi on'
+alias upsystem='networksetup -setwebproxystate Wi-Fi off && networksetup -setsecurewebproxystate Wi-Fi off && networksetup -setsocksfirewallproxystate Wi-Fi off'
+
+10.*、172.16.0.0/12、192.168.*、127.0.0.1、localhost
