@@ -122,3 +122,6 @@ alias psystem='networksetup -setwebproxystate Wi-Fi on && networksetup -setsecur
 alias upsystem='networksetup -setwebproxystate Wi-Fi off && networksetup -setsecurewebproxystate Wi-Fi off && networksetup -setsocksfirewallproxystate Wi-Fi off'
 
 10.*、172.16.0.0/12、192.168.*、127.0.0.1、localhost
+
+
+split -l 1000 find.txt ppd-
