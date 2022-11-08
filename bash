@@ -1,3 +1,6 @@
+alias j8=''
+alias j11=''
+
 alias pro='export http_proxy=127.0.0.1:9999;export https_proxy=$http_proxy'
 alias nopro='unset http_proxy;unset https_proxy'
 

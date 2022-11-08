@@ -1,0 +1,21 @@
+{
+  "from": {
+    "key_code": "t"
+  },
+  "to": [
+    {
+      "key_code": "f12",
+      "modifiers": [
+        "left_option"
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "name": "caps-lock-mode",
+      "value": 1,
+      "type": "variable_if"
+    }
+  ],
+  "type": "basic"
+}
