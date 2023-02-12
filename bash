@@ -9,10 +9,12 @@ alias pro='export http_proxy=127.0.0.1:9999;export https_proxy=$http_proxy'
 alias nopro='unset http_proxy;unset https_proxy'
 
 alias d='cd /Users/admin/Downloads'
+alias j='cd'
 alias c='clear'
 alias r='!!'
 alias q='exit'
 alias h='history'
+alias p='pwd'
 
 alias ll='ls -Alh'
 
@@ -50,6 +52,7 @@ git config --global alias.a "add ."
 git config --global alias.cm "commit -m"
 git config --global alias.pl pull
 git config --global alias.ps push
+git config --global alias.psf "push -f"
 git config --global alias.c clone
 
 
