@@ -1,10 +1,14 @@
-alias j8=''
-alias j11=''
+export M2_HOME=/Users/admin/Downloads/maven/apache-maven-3.6.3
+export PATH=$PATH:$M2_HOME/bin
+export JAVA_HOME=/Users/admin/Downloads/amazon-corretto-8.jdk/Contents/Home
+
+alias j8='/Users/admin/Downloads/amazon-corretto-8.jdk/Contents/Home'
+alias j11='/Users/admin/Downloads/amazon-corretto-11.jdk/Contents/Home'
 
 alias pro='export http_proxy=127.0.0.1:9999;export https_proxy=$http_proxy'
 alias nopro='unset http_proxy;unset https_proxy'
 
-alias d='cd /Users/codingbaby/Downloads'
+alias d='cd /Users/admin/Downloads'
 alias c='clear'
 alias r='!!'
 alias q='exit'
