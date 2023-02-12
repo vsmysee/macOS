@@ -11,6 +11,8 @@ defaults write -g ApplePressAndHoldEnabled -bool true
 
 xcode-select –install
 
+xcode-select -p
+
 caffeinate -t 3600
 
 df -h
