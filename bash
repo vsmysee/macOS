@@ -15,6 +15,7 @@ alias r='!!'
 alias q='exit'
 alias h='history'
 alias p='pwd'
+alias p3='python3'
 
 alias ll='ls -Alh'
 
