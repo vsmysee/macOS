@@ -1,14 +1,15 @@
-export M2_HOME=/Users/admin/Downloads/maven/apache-maven-3.6.3
-export PATH=$PATH:$M2_HOME/bin
-export JAVA_HOME=/Users/admin/Downloads/amazon-corretto-8.jdk/Contents/Home
+export M2_HOME=~/Downloads/apache-maven-3.6.3
+export GROOVY_HOME=~/Downloads/groovy-3.0.15
+export PATH=$PATH:$M2_HOME/bin:$GROOVY_HOME/bin
+export JAVA_HOME=~/Downloads/amazon-corretto-8.jdk/Contents/Home
 
-alias j8='/Users/admin/Downloads/amazon-corretto-8.jdk/Contents/Home'
-alias j11='/Users/admin/Downloads/amazon-corretto-11.jdk/Contents/Home'
+alias j8='export JAVA_HOME=~/Downloads/amazon-corretto-8.jdk/Contents/Home'
+alias j11='export JAVA_HOME=~/Downloads/amazon-corretto-11.jdk/Contents/Home'
 
 alias pro='export http_proxy=127.0.0.1:9999;export https_proxy=$http_proxy'
 alias nopro='unset http_proxy;unset https_proxy'
 
-alias d='cd /Users/admin/Downloads'
+alias d='cd ~/Downloads'
 alias j='cd'
 alias c='clear'
 alias r='!!'
@@ -55,5 +56,3 @@ git config --global alias.pl pull
 git config --global alias.ps push
 git config --global alias.psf "push -f"
 git config --global alias.c clone
-
-
